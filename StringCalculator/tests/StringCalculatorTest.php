@@ -4,7 +4,7 @@ namespace StringCalculator;
 
 use PHPUnit\Framework\TestCase;
 
-//require 'Calculator.php';
+require "../src/StringCalculator.php";
 
 final class CalculatorTests extends TestCase
 {
@@ -12,6 +12,7 @@ final class CalculatorTests extends TestCase
 
     public function testEmptyStringShouldReturnZero()
     {
+        $this->calculator = new StringCalculator();
         $result = $this->calculator->add("");
         $this->assertEquals(0, $result);
     }
