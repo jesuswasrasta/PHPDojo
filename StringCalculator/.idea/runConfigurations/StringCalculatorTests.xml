@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="StringCalculatorTests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" singleton="false">
+    <TestRunner class="StringCalculatorKata\StringCalculatorTests" directory="$PROJECT_DIR$/tests" file="$PROJECT_DIR$/tests/StringCalculatorTest.php" scope="Class" />
+    <method v="2" />
+  </configuration>
+</component>

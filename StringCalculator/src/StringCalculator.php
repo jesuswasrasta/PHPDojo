@@ -2,12 +2,11 @@
 /**
  * Created by PhpStorm.
  * User: san
- * Date: 06/03/2019
- * Time: 18:17
+ * Date: 12/03/2019
+ * Time: 10:54
  */
 
-namespace StringCalculator;
-
+namespace StringCalculatorKata;
 
 class StringCalculator
 {
@@ -26,6 +25,9 @@ class StringCalculator
      */
     public function add(string $numbersString): int
     {
-        return 0;
+        if ($numbersString === "") {
+            return 0;
+        }
+        return 1;
     }
 }
