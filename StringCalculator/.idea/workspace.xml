@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f502b11-a054-424e-a478-2a5fe7299540" name="Default Changelist" comment="Found these files in Sandro Mancuso TripService kata&#10;&#10;I discovered these files when I was looking for solution to my problem:&#10;cannot run PHPUnit tests with coverage. &#10;I finally discovered I need phpunit.xml file, and PHPStorm &#10;Run Configuration must be configured to execute test on a class.&#10;I commit them here anyway, maybe them can be useful if I want to use&#10;WSL or CygWin environments">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7f502b11-a054-424e-a478-2a5fe7299540" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/StringCalculator$StringCalculatorTests_testThreeAsStringShouldReturnThree.xml" NAME="StringCalculatorTests.testThreeAsStringShouldReturnThree Coverage Results" MODIFIED="1552387365530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/StringCalculator$StringCalculatorTests.xml" NAME="StringCalculatorTests Coverage Results" MODIFIED="1552466155583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/StringCalculator$StringCalculatorTests.xml" NAME="StringCalculatorTests Coverage Results" MODIFIED="1552467219378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/StringCalculator$phpunit_xml_dist.xml" NAME="StringCalculatorTests Coverage Results" MODIFIED="1552388426270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageOptionsProvider">
@@ -32,7 +30,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/StringCalculatorTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="384">
+                <state relative-caret-position="720">
                   <caret line="45" selection-start-line="45" selection-end-line="45" />
                 </state>
               </provider>
@@ -64,8 +62,8 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="176">
-                    <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+                  <first_editor relative-caret-position="544">
+                    <caret line="34" column="83" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -209,7 +207,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552385715131</updated>
       <workItem from="1552385716404" duration="4010000" />
-      <workItem from="1552464505429" duration="2116000" />
+      <workItem from="1552464505429" duration="2227000" />
     </task>
     <task id="LOCAL-00001" summary="The sum of a string with a single number should return that number">
       <created>1552466337975</created>
@@ -232,7 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552466890449</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add README for String Calculator kata">
+      <created>1552466967681</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552466967681</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update PHPStorm and workspace">
+      <created>1552467005004</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552467005004</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -268,11 +280,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6126000" />
+    <option name="totallyTimeSpent" value="6237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14978679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -280,7 +291,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978564" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -303,7 +314,9 @@
     <MESSAGE value="The sum of a string with a single number should return that number" />
     <MESSAGE value="Moved .idea folder and project inside kata folder" />
     <MESSAGE value="Found these files in Sandro Mancuso TripService kata&#10;&#10;I discovered these files when I was looking for solution to my problem:&#10;cannot run PHPUnit tests with coverage. &#10;I finally discovered I need phpunit.xml file, and PHPStorm &#10;Run Configuration must be configured to execute test on a class.&#10;I commit them here anyway, maybe them can be useful if I want to use&#10;WSL or CygWin environments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Found these files in Sandro Mancuso TripService kata&#10;&#10;I discovered these files when I was looking for solution to my problem:&#10;cannot run PHPUnit tests with coverage. &#10;I finally discovered I need phpunit.xml file, and PHPStorm &#10;Run Configuration must be configured to execute test on a class.&#10;I commit them here anyway, maybe them can be useful if I want to use&#10;WSL or CygWin environments" />
+    <MESSAGE value="Add README for String Calculator kata" />
+    <MESSAGE value="Update PHPStorm and workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update PHPStorm and workspace" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.phpunit.result.cache">
@@ -318,7 +331,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/StringCalculatorTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="720">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
@@ -333,8 +346,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="176">
-            <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <first_editor relative-caret-position="544">
+            <caret line="34" column="83" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
           </first_editor>
           <second_editor />
         </state>
