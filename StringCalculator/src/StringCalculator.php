@@ -28,6 +28,8 @@ class StringCalculator
         if ($numbersString === "") {
             return 0;
         }
-        return 1;
+
+        (int)$result = number_format($numbersString);
+        return $result;
     }
 }

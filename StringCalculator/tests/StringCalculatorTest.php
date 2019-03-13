@@ -32,5 +32,16 @@ final class StringCalculatorTests extends TestCase
         $this->assertEquals(1, $result);
     }
 
+    public function testTwoAsStringShouldReturnTwo()
+    {
+        $result = $this->calculator->add("2");
+        $this->assertEquals(2, $result);
+    }
+
+    public function testThreeAsStringShouldReturnThree()
+    {
+        $result = $this->calculator->add("3");
+        $this->assertEquals(3, $result);
+    }
 }
 
