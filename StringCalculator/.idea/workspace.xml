@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f502b11-a054-424e-a478-2a5fe7299540" name="Default Changelist" comment="">
+    <list default="true" id="7f502b11-a054-424e-a478-2a5fe7299540" name="Default Changelist" comment="Found these files in Sandro Mancuso TripService kata&#10;&#10;I discovered these files when I was looking for solution to my problem:&#10;cannot run PHPUnit tests with coverage. &#10;I finally discovered I need phpunit.xml file, and PHPStorm &#10;Run Configuration must be configured to execute test on a class.&#10;I commit them here anyway, maybe them can be useful if I want to use&#10;WSL or CygWin environments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringCalculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringCalculator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/StringCalculatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/StringCalculatorTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +32,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/StringCalculatorTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="48">
-                  <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+                <state relative-caret-position="384">
+                  <caret line="45" selection-start-line="45" selection-end-line="45" />
                 </state>
               </provider>
             </entry>
@@ -53,11 +51,23 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/StringCalculator.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+                <state relative-caret-position="416">
+                  <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="176">
+                    <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -73,8 +83,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/phpunit.xml.dist" />
-        <option value="$PROJECT_DIR$/tests/StringCalculatorTest.php" />
         <option value="$PROJECT_DIR$/src/StringCalculator.php" />
+        <option value="$PROJECT_DIR$/tests/StringCalculatorTest.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -198,8 +209,30 @@
       <option name="presentableId" value="Default" />
       <updated>1552385715131</updated>
       <workItem from="1552385716404" duration="4010000" />
-      <workItem from="1552464505429" duration="1401000" />
+      <workItem from="1552464505429" duration="2116000" />
     </task>
+    <task id="LOCAL-00001" summary="The sum of a string with a single number should return that number">
+      <created>1552466337975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552466337975</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Moved .idea folder and project inside kata folder">
+      <created>1552466374250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552466374250</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Found these files in Sandro Mancuso TripService kata&#10;&#10;I discovered these files when I was looking for solution to my problem:&#10;cannot run PHPUnit tests with coverage. &#10;I finally discovered I need phpunit.xml file, and PHPStorm &#10;Run Configuration must be configured to execute test on a class.&#10;I commit them here anyway, maybe them can be useful if I want to use&#10;WSL or CygWin environments">
+      <created>1552466890449</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552466890449</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -235,19 +268,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5411000" />
+    <option name="totallyTimeSpent" value="6126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14978679" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14978679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978564" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -266,6 +299,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="The sum of a string with a single number should return that number" />
+    <MESSAGE value="Moved .idea folder and project inside kata folder" />
+    <MESSAGE value="Found these files in Sandro Mancuso TripService kata&#10;&#10;I discovered these files when I was looking for solution to my problem:&#10;cannot run PHPUnit tests with coverage. &#10;I finally discovered I need phpunit.xml file, and PHPStorm &#10;Run Configuration must be configured to execute test on a class.&#10;I commit them here anyway, maybe them can be useful if I want to use&#10;WSL or CygWin environments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Found these files in Sandro Mancuso TripService kata&#10;&#10;I discovered these files when I was looking for solution to my problem:&#10;cannot run PHPUnit tests with coverage. &#10;I finally discovered I need phpunit.xml file, and PHPStorm &#10;Run Configuration must be configured to execute test on a class.&#10;I commit them here anyway, maybe them can be useful if I want to use&#10;WSL or CygWin environments" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.phpunit.result.cache">
       <provider selected="true" editor-type-id="text-editor" />
@@ -279,15 +318,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/StringCalculatorTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="384">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StringCalculator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="416">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="176">
+            <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
