@@ -50,6 +50,10 @@ final class StringCalculatorTests extends TestCase
         $this->assertEquals(3, $result);
     }
 
-
+    public function testSumOfOneTwoAndThreeShouldReturnSix()
+    {
+        $result = $this->calculator->add("1,2,3");
+        $this->assertEquals(6, $result);
+    }
 }
 
