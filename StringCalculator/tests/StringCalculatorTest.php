@@ -43,5 +43,13 @@ final class StringCalculatorTests extends TestCase
         $result = $this->calculator->add("3");
         $this->assertEquals(3, $result);
     }
+
+    public function testSumOfOneAndTwoShouldReturnThree()
+    {
+        $result = $this->calculator->add("1,2");
+        $this->assertEquals(3, $result);
+    }
+
+
 }
 

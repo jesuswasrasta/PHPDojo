@@ -28,8 +28,13 @@ class StringCalculator
         if ($numbersString === "") {
             return 0;
         }
+        $delimiter = ",";
+        $numbers = explode ( $delimiter , $numbersString);
+        (int)$result = 0;
+        foreach ($numbers as $value){
+            $result += number_format($value);
+        }
 
-        (int)$result = number_format($numbersString);
         return $result;
     }
 }
