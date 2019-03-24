@@ -5,7 +5,7 @@ namespace Test\TripServiceKata\Trip;
 use PHPUnit_Framework_TestCase;
 use TripServiceKata\Trip\TripService;
 use TripServiceKata\User\User;
-use TripServiceKata\User\UsersService;
+use TripServiceKata\User\UsersServiceMock;
 
 class TripServiceTest extends PHPUnit_Framework_TestCase
 {
@@ -17,7 +17,7 @@ class TripServiceTest extends PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->usersService = new UsersService();
+        $this->usersService = new UsersServiceMock();
         $this->tripService = new TripService($this->usersService);
     }
 
