@@ -2,9 +2,9 @@
 
 namespace TripServiceKata\Trip;
 
+use TripServiceKata\Exception\UserNotLoggedInException;
 use TripServiceKata\User\User;
 use TripServiceKata\User\UserSession;
-use TripServiceKata\Exception\UserNotLoggedInException;
 
 class TripService
 {

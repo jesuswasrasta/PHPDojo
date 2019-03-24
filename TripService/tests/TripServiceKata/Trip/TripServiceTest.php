@@ -4,6 +4,7 @@ namespace Test\TripServiceKata\Trip;
 
 use PHPUnit_Framework_TestCase;
 use TripServiceKata\Trip\TripService;
+use TripServiceKata\User\User;
 
 class TripServiceTest extends PHPUnit_Framework_TestCase
 {
@@ -17,8 +18,10 @@ class TripServiceTest extends PHPUnit_Framework_TestCase
         $this->tripService = new TripService;
     }
 
-    /** @test */ public function 
-    it_does_something() {
-        $this->fail('This test has not been implemented yet.');
+    /** @test */
+    public function test_getTripsByUser() {
+        $user = new User("pippo");
+        $this->tripService->getTripsByUser($user);
+        $this->assertTrue('Cannot get user null');
     }
 }
