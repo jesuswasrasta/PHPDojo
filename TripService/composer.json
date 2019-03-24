@@ -16,8 +16,12 @@
         "bin-dir": "bin"
     },
     "autoload": {
+        "classmap": [
+            "src/",
+            "tests/"
+        ],
         "psr-0": {
-            "": ["src/"]
+            "": ["src/", "tests/"]
         }
     }
 }
