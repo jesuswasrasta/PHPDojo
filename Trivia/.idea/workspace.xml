@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96c435c9-edec-4757-a559-c9b09e2a0c8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../StringCalculator/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StringCalculator/.idea/StringCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../StringCalculator/.idea/StringCalculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StringCalculator/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StringCalculator/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StringCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StringCalculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StringCalculator/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../StringCalculator/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StringCalculator/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../StringCalculator/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,22 +15,26 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <executablePath>composer</executablePath>
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Trivia$phpunit_xml_dist.xml" NAME="phpunit.xml.dist Coverage Results" MODIFIED="1552688006217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Trivia$GameTest_it_does_something.xml" NAME="GameTest.it_does_something Coverage Results" MODIFIED="1552687911592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1264">
-              <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+            <state relative-caret-position="224">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/GameTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="256">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -84,6 +83,7 @@
         <option value="$PROJECT_DIR$/tests/GameRunnerTest.php" />
         <option value="$USER_HOME$/Google Drive Agile Reloaded/Personale/Docebo/sessione tecnica/2019-03-18/code.php" />
         <option value="$PROJECT_DIR$/tests/GameTest.php" />
+        <option value="$PROJECT_DIR$/src/Game.php" />
       </list>
     </option>
   </component>
@@ -137,9 +137,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="39" />
-    <option name="y" value="50" />
-    <option name="width" value="1664" />
+    <option name="x" value="260" />
+    <option name="y" value="25" />
+    <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -175,10 +175,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TripService" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TennisRefactoringKata" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.php.quality.tools" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -192,12 +192,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.GameRunner">
+  <component name="RunManager" selected="PHPUnit.phpunit.xml.dist">
     <configuration name="GameRunner.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trivia/GameRunner.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner scope="XML" />
+      <TestRunner class="Test\TripServiceKata\Trip\GameTest" file="$PROJECT_DIR$/tests/GameTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="GameRunner" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/GameRunner.php">
@@ -224,7 +224,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552663203578</updated>
-      <workItem from="1552663204782" duration="3332000" />
+      <workItem from="1552663204782" duration="4523000" />
     </task>
     <task id="LOCAL-00001" summary="JBrains Trivia kata setup">
       <created>1552664931378</created>
@@ -233,16 +233,48 @@
       <option name="project" value="LOCAL" />
       <updated>1552664931378</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JBrains Trivia kata first failing test">
+      <created>1552672114562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552672114563</updated>
+    </task>
+    <task id="LOCAL-00003" summary="StringCalculator .idea and composer updates">
+      <created>1552672142475</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552672142475</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="GameRunnerTest - 2019.03.15 at 16h 43m 48s.xml">
       <configuration name="GameRunnerTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="GameTest - 2019.03.15 at 18h 45m 21s.xml">
+      <configuration name="GameTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="GameTest - 2019.03.15 at 18h 47m 20s.xml">
+      <configuration name="GameTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="GameTest - 2019.03.15 at 18h 48m 01s.xml">
+      <configuration name="GameTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="GameTest_it_does_something - 2019.03.15 at 23h 11m 51s.xml">
+      <configuration name="GameTest.it_does_something" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="phpunit_xml_dist - 2019.03.15 at 23h 12m 30s.xml">
+      <configuration name="phpunit.xml.dist" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="phpunit_xml_dist - 2019.03.15 at 23h 13m 26s.xml">
+      <configuration name="phpunit.xml.dist" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3332000" />
+    <option name="totallyTimeSpent" value="4523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -260,11 +292,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978564" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -275,7 +308,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JBrains Trivia kata setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="JBrains Trivia kata setup" />
+    <MESSAGE value="JBrains Trivia kata first failing test" />
+    <MESSAGE value="StringCalculator .idea and composer updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringCalculator .idea and composer updates" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
@@ -320,13 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1264">
-          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GameRunner.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -336,8 +364,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/GameTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="256">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
