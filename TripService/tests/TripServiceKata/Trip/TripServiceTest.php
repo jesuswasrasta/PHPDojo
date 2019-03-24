@@ -5,6 +5,7 @@ namespace Test\TripServiceKata\Trip;
 use PHPUnit_Framework_TestCase;
 use TripServiceKata\Trip\TripService;
 use TripServiceKata\User\User;
+use TripServiceKata\User\UsersService;
 
 class TripServiceTest extends PHPUnit_Framework_TestCase
 {
@@ -12,10 +13,12 @@ class TripServiceTest extends PHPUnit_Framework_TestCase
      * @var TripService
      */
     private $tripService;
+    private $usersService;
 
     protected function setUp()
     {
-        $this->tripService = new TripService;
+        $this->usersService = new UsersService();
+        $this->tripService = new TripService($this->usersService);
     }
 
     /** @test */

@@ -9,7 +9,7 @@
 namespace TripServiceKata\User;
 
 
-class UsersService
+class UsersService implements IUsersService
 {
     public function getLoggedUser(): User
     {
