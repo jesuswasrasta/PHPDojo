@@ -4,7 +4,7 @@
  * TennisGame1 test case.
  */
 
-require "../src/TennisGame3.php";
+//require "../src/TennisGame3.php";
 
 class TennisGame3Test extends TestMaster
 {

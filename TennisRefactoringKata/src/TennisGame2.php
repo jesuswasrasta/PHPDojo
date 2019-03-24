@@ -1,6 +1,6 @@
 <?php
 
-require "../src/TennisGame.php";
+//require "../src/TennisGame.php";
 
 class TennisGame2 implements TennisGame
 {
