@@ -15,4 +15,13 @@ class FizzBuzzTest extends TestCase
 
         $this->assertEquals($expected, $actual);
     }
+
+    /** @test */
+    public function givingNumber2tShouldReturn2() : void {
+        $fizzbuzz = new FizzBuzz();
+        $expected = 2;
+        $actual = $fizzbuzz->say(2);
+
+        $this->assertEquals($expected, $actual);
+    }
 }
