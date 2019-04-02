@@ -1,0 +1,27 @@
+{
+    "name": "jesuswasrasta/fizzbuzz",
+    "license": "GPL-3.0",
+    "description": "FizzBuzz kata.",
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "authors": [
+        {
+            "name": "Ferdinando Santacroce",
+            "email": "ferdinando.santacroce@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "classmap": [
+            "src/",
+            "tests/"
+        ],
+        "psr-0": {
+            "": ["src/", "tests/"]
+        }
+    }
+}
