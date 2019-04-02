@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ef816c8-6b2c-4257-a946-abca51750407" name="Default Changelist" comment="FizzBuzz Kata">
-      <change afterPath="$PROJECT_DIR$/src/FizzBuzz.php" afterDir="false" />
+    <list default="true" id="5ef816c8-6b2c-4257-a946-abca51750407" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FizzBuzz.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FizzBuzz.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/FizzBuzzTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FizzBuzzTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TripService/.idea/php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TripService/.idea/php.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/doctrine/instantiator/" />
@@ -41,8 +40,12 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <executablePath>composer</executablePath>
   </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+    <option name="myActivateViewOnRun" value="false" />
+  </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="313" />
+    <option name="myElementSize" value="427" />
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
@@ -51,11 +54,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/FizzBuzzTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-                  <folding>
-                    <element signature="e#38#69#0#PHP" expanded="true" />
-                  </folding>
+                <state relative-caret-position="252">
+                  <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
@@ -72,12 +72,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/FizzBuzz.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+                <state relative-caret-position="406">
+                  <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -102,8 +102,8 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/phpunit.xml.dist" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/FizzBuzz.php" />
         <option value="$PROJECT_DIR$/tests/FizzBuzzTest.php" />
+        <option value="$PROJECT_DIR$/src/FizzBuzz.php" />
       </list>
     </option>
   </component>
@@ -154,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +170,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +180,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -199,33 +199,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.FizzBuzzTest (2)">
-    <configuration name="FizzBuzzTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="FizzBuzzKata\Tests\FizzBuzzTest" file="$PROJECT_DIR$/tests/FizzBuzzTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FizzBuzzTest (2)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Test\FizzBuzzKata\FizzBuzzTest" file="$PROJECT_DIR$/tests/FizzBuzzTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="FizzBuzzTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\FizzBuzzTest" file="$PROJECT_DIR$/tests/FizzBuzzTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FizzBuzzTest.givingNumber1tShouldReturn1 (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="FizzBuzzKata\Tests\FizzBuzzTest" file="$PROJECT_DIR$/tests/FizzBuzzTest.php" method="givingNumber1tShouldReturn1" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FizzBuzzTest.givingNumber1tShouldReturn1" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\FizzBuzzTest" file="$PROJECT_DIR$/tests/FizzBuzzTest.php" method="givingNumber1tShouldReturn1" scope="Method" />
+      <TestRunner class="Test\FizzBuzzKata\FizzBuzzTest" file="$PROJECT_DIR$/tests/FizzBuzzTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.FizzBuzzTest (2)" />
-        <item itemvalue="PHPUnit.FizzBuzzTest.givingNumber1tShouldReturn1 (1)" />
-        <item itemvalue="PHPUnit.FizzBuzzTest (1)" />
-        <item itemvalue="PHPUnit.FizzBuzzTest.givingNumber1tShouldReturn1" />
         <item itemvalue="PHPUnit.FizzBuzzTest" />
       </list>
     </recent_temporary>
@@ -243,7 +223,10 @@
       <workItem from="1553961398125" duration="640000" />
       <workItem from="1553962329881" duration="4080000" />
       <workItem from="1554207534791" duration="259000" />
-      <workItem from="1554208308962" duration="5156000" />
+      <workItem from="1554208308962" duration="6159000" />
+      <workItem from="1554216813916" duration="43000" />
+      <workItem from="1554216879088" duration="344000" />
+      <workItem from="1554217243493" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="FizzBuzz Kata">
       <created>1554210727933</created>
@@ -252,55 +235,69 @@
       <option name="project" value="LOCAL" />
       <updated>1554210727934</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FizzBuzz Kata: test for number 1">
+      <created>1554213753970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554213753970</updated>
+    </task>
+    <task id="LOCAL-00003" summary="FizzBuzz Kata: test for number 2">
+      <created>1554213968815</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554213968815</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest - 2019.04.02 at 15h 08m 10s.xml">
+    <history-entry file="FizzBuzzTest_givingNumber3tShouldReturnFizz - 2019.04.02 at 16h 17m 04s.xml">
+      <configuration name="FizzBuzzTest.givingNumber3tShouldReturnFizz" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_givingNumber3tShouldReturnFizz - 2019.04.02 at 16h 17m 17s.xml">
+      <configuration name="FizzBuzzTest.givingNumber3tShouldReturnFizz" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2019.04.02 at 16h 17m 24s.xml">
       <configuration name="FizzBuzzTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2019.04.02 at 15h 09m 56s.xml">
+    <history-entry file="FizzBuzzTest - 2019.04.02 at 16h 17m 35s.xml">
       <configuration name="FizzBuzzTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2019.04.02 at 15h 18m 27s.xml">
+    <history-entry file="FizzBuzzTest - 2019.04.02 at 16h 17m 36s.xml">
       <configuration name="FizzBuzzTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_givingNumber1tShouldReturn1 - 2019.04.02 at 15h 50m 45s.xml">
-      <configuration name="FizzBuzzTest.givingNumber1tShouldReturn1" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_givingNumber1tShouldReturn1 - 2019.04.02 at 15h 52m 36s.xml">
-      <configuration name="FizzBuzzTest.givingNumber1tShouldReturn1" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_(1) - 2019.04.02 at 15h 53m 53s.xml">
-      <configuration name="FizzBuzzTest (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest - 2019.04.02 at 15h 54m 43s.xml">
+    <history-entry file="FizzBuzzTest - 2019.04.02 at 16h 17m 55s.xml">
       <configuration name="FizzBuzzTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_givingNumber1tShouldReturn1_(1) - 2019.04.02 at 15h 56m 05s.xml">
-      <configuration name="FizzBuzzTest.givingNumber1tShouldReturn1 (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="FizzBuzzTest - 2019.04.02 at 16h 53m 50s.xml">
+      <configuration name="FizzBuzzTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_(2) - 2019.04.02 at 15h 56m 45s.xml">
-      <configuration name="FizzBuzzTest (2)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="FizzBuzzTest - 2019.04.02 at 16h 54m 56s.xml">
+      <configuration name="FizzBuzzTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_(2) - 2019.04.02 at 16h 01m 03s.xml">
-      <configuration name="FizzBuzzTest (2)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="FizzBuzzTest - 2019.04.02 at 16h 55m 04s.xml">
+      <configuration name="FizzBuzzTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2019.04.02 at 16h 55m 07s.xml">
+      <configuration name="FizzBuzzTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10135000" />
+    <option name="totallyTimeSpent" value="11944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25773746" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26627535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.715048" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7139808" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893278" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -308,8 +305,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4994664" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053364" side_tool="true" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Coverage" order="12" sideWeight="0.28495198" side_tool="true" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.2860192" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Coverage" order="12" sideWeight="0.2860192" side_tool="true" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -321,28 +318,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FizzBuzz Kata" />
-    <option name="LAST_COMMIT_MESSAGE" value="FizzBuzz Kata" />
+    <MESSAGE value="FizzBuzz Kata: test for number 1" />
+    <MESSAGE value="FizzBuzz Kata: test for number 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="FizzBuzz Kata: test for number 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FizzBuzz$FizzBuzzTest.xml" NAME="FizzBuzzTest Coverage Results" MODIFIED="1554210596508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FizzBuzz$FizzBuzzTest_givingNumber3tShouldReturnFizz.xml" NAME="FizzBuzzTest.givingNumber3tShouldReturnFizz Coverage Results" MODIFIED="1554214637466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FizzBuzz$FizzBuzzTest.xml" NAME="FizzBuzzTest Coverage Results" MODIFIED="1554217658342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TripService$TripServiceTest.xml" NAME="TripServiceTest Coverage Results" MODIFIED="1553965776831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/FizzBuzz$FizzBuzzTest__2_.xml" NAME="FizzBuzzTest (2) Coverage Results" MODIFIED="1554213663155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TripServiceKata/Trip/TripService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TripServiceKata/Trip/TripServiceTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TripServiceKata/Trip/TripService.php" />
+    <entry file="file://$PROJECT_DIR$/tests/TripServiceKata/Trip/TripServiceTest.php" />
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-140">
@@ -388,13 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FizzBuzz.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -404,13 +385,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/FizzBuzzTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#38#69#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="252">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FizzBuzz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24499089" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
