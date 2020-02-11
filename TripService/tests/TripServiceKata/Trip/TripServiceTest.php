@@ -2,23 +2,24 @@
 
 namespace Test\TripServiceKata\Trip;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use TripServiceKata\Trip\TripService;
 
-class TripServiceTest extends PHPUnit_Framework_TestCase
+class TripServiceTest extends TestCase
 {
     /**
      * @var TripService
      */
     private $tripService;
 
-    protected function setUp()
+    protected function setUp(): void
     {
-        $this->tripService = new TripService;
+        $this->tripService = new TripService();
     }
 
     /** @test */ public function 
-    it_does_something() {
+    it_does_something(): void
+{
         $this->fail('This test has not been implemented yet.');
     }
 }
