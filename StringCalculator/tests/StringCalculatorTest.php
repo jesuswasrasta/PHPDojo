@@ -4,9 +4,9 @@ namespace StringCalculatorKata;
 
 use PHPUnit\Framework\TestCase;
 
-require "../src/StringCalculator.php";
+require __DIR__ . "/../src/StringCalculator.php";
 
-final class StringCalculatorTests extends TestCase
+final class StringCalculatorTest extends TestCase
 {
     private $calculator;
 

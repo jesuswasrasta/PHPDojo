@@ -1,37 +1,22 @@
 <?php
 
-/**
- * TennisGame1 test case.
- */
-
-//require "../src/TennisGame3.php";
+use PHPUnit\Framework\Attributes\DataProvider;
 
 class TennisGame3Test extends TestMaster
 {
-    /**
-     * Prepares the environment before running a test.
-     */
-    protected function setUp():void
+    protected function setUp(): void
     {
         parent::setUp();
         $this->_game = new TennisGame3('player1', 'player2');
     }
 
-    /**
-     * Cleans up the environment after running a test.
-     */
-    protected function tearDown():void
+    protected function tearDown(): void
     {
         $this->_game = null;
         parent::tearDown();
     }
 
-    /**
-     * @param int $score1
-     * @param int $score2
-     * @param string $expectedResult
-     * @dataProvider data
-     */
+    #[DataProvider('data')]
     public function testScores($score1, $score2, $expectedResult)
     {
         $highestScore = max($score1, $score2);

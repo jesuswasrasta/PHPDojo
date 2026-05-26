@@ -17,8 +17,7 @@ class TripServiceTest extends TestCase
         $this->tripService = new TripService();
     }
 
-    /** @test */ public function 
-    it_does_something(): void
+    public function test_it_does_something(): void
 {
         $this->fail('This test has not been implemented yet.');
     }

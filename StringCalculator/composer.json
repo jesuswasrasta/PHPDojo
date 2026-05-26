@@ -5,8 +5,8 @@
         ]
     },
     "require-dev": {
-        "phpunit/phpunit": "*",
-        "phpmd/phpmd": "2.6.0"
+        "phpunit/phpunit": "^13.1",
+        "phpmd/phpmd": "^2.15"
     },
     "require": {
 

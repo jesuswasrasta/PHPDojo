@@ -3,7 +3,7 @@
     "license": "GPL-3.0",
     "description": "FizzBuzz kata.",
     "require-dev": {
-        "phpunit/phpunit": "^8"
+        "phpunit/phpunit": "^13.1"
     },
     "authors": [
         {
@@ -17,11 +17,10 @@
     },
     "autoload": {
         "classmap": [
-            "src/",
             "tests/"
         ],
         "psr-0": {
-            "": ["src/", "tests/"]
+            "": ["tests/"]
         }
     }
 }
